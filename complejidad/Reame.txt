@@ -1,0 +1,23 @@
+Para poder usar el programa debes posicionarte en la carpeta Ejercicio1(Para ejecutar el programa de alcanzabilidad) o la carpeta Ejercicio2(Para ejecutar el programa de coloracion) y compilar todos los archivos java con el comando "javac *.java"
+
+Después de eso deber usar el comando "java ColoracionNP" para probar el programa del ejercicio 2 o el comando "java CaminoNP"
+
+La clase Vertice emula un vertice en una grafica
+La clase Grafica emula una grafica(aqui se encuentra el metodo que emula la fase verificadora y la fase adivinadora)
+La clase Verificador cadenas nos sirve para ver si una cadena proporcionada por el usuario es valida
+La clase ColoracionNP es el main del programa(Aqui se ejecutan las fases adivinadora y verificadora del ejercicio 2)
+La clase Arista emul una arista(servira para representar caminos)
+La clase CaminoNP es el main del programa(Aqui se ejecutan las fases adivinadora y verificadora del ejercicio 1)
+
+Si se busca agregar una grafica propia, primero se le pedira escribir un numero el cual sera el numero de vertices de G
+después de eso se le pediran las listas de adyasencias, estas deberan contener cadenas de numeros separadas por comas, sin espacios, en caso de que no escriba bien la cadena, el programa lo notificara y le pedira volver a ejecutar el programa.
+
+ejemplos de cadenas validas:
+1,2,3,4,5,6,7
+2,4,5,6,7
+
+cadenas invalidas:
+(1,2,3)
+[1,2,3]
+1,a
+1,,2
